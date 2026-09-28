@@ -1,0 +1,19 @@
+{
+  "name": "volx-portfolio-snapshot",
+  "version": "1.0.0",
+  "description": "Local Solana portfolio snapshot for VOLX (volx.app)",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/snapshot.ts",
+    "build": "tsc",
+    "start": "node dist/snapshot.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
